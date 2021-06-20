@@ -19,13 +19,16 @@ cursor1.execute('show tables')
 values = cursor1.fetchall()
 #打印数据
 for value in values:
-    print(value)
+    print(value)lvyoujunstudy666
 #提交--->把数据保存到磁盘中去
 conn.commit()
 #游标关闭
 cursor1.close()
 #连接关闭
 conn.close()
+
+if  __name__ == '__main__':
+
 
 
 
